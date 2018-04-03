@@ -1,9 +1,9 @@
 FROM ubuntu:latest
 
-ENV HTTP_PROXY=
-ENV HTTPS_PROXY=
-ENV http_proxy=
-ENV https_proxy=
+ENV HTTP_PROXY=http://
+ENV HTTPS_PROXY=http://
+ENV http_proxy=http://
+ENV https_proxy=http://
 
 RUN apt-get -y update && apt-get -y upgrade && apt-get install -y \
     openjdk-8-jdk \
