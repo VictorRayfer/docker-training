@@ -16,4 +16,4 @@ ENV APACHE_LOG_DIR /var/log/apache2
 
 EXPOSE 80
 
-CMD apache2 -D FOREGROUND 
+CMD apache2ctl -D FOREGROUND 
