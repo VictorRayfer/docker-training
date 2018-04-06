@@ -5,7 +5,7 @@ ENV HTTPS_PROXY=http://
 ENV http_proxy=http://
 ENV https_proxy=http://
 
-RUN apt-get -y update && apt-get -y upgrade && apt-get install -y \
+RUN apt-get -y update && apt-get install -y \
     openjdk-8-jdk \
     wget
 
